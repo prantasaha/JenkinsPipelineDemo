@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'building'
+                echo 'building from git'
             }
         }
         stage('Deploy') {
